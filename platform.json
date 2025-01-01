@@ -74,7 +74,7 @@
 	    "type": "framework",
 	    "optional": false,
 	    "owner": "industrialshields",
-	    "version": "https://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-esp32-2.3.0.tar.bz2"
+	    "version": "https://apps.industrialshields.com/main/arduino/boards/industrialshields-boards-esp32-2.2.0.tar.bz2"
 	},
 	"framework-arduino-mbcwb": {
 	    "type": "framework",
