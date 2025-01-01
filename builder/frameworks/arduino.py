@@ -65,9 +65,9 @@ def click_macros(click: str, number: int) -> str:
         "values are: GPRS")
 
 if (board.get("build.variant") == "esp32plc"):
-    custom_version = int(env.GetProjectOption("custom_version"))
-    custom_click1 = env.GetProjectOption("custom_click1")
-    custom_click2 = env.GetProjectOption("custom_click2")
+    custom_version = int(env.GetProjectOption("custom_version",default="3"))
+    custom_click1 = env.GetProjectOption("custom_click1",default="None")
+    custom_click2 = env.GetProjectOption("custom_click2",default="None")
 
     build_flags = []
 
